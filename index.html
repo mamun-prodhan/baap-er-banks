@@ -1,18 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Baap Er Bank</title>
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-    <h1 class="text-5xl text-center mt-5">Welcome to your <span class="font-semibold text-indigo-400">Baap er Bank!!!</span></h1>
-    <section class="bg-blue-300 w-9/12 mx-auto mt-10 p-8">
+  </head>
+  <body>
+    <header>
+      <h1 class="text-5xl text-center mt-5">
+        Welcome to your
+        <span class="font-semibold text-indigo-400">Baap er Bank!!!</span>
+      </h1>
+    </header>
+    <main>
+      <section class="bg-blue-300 w-9/12 mx-auto mt-10 p-8">
         <h2 class="text-3xl font-semibold mb-3">Please Login</h2>
-        <input class="block mb-3 w-9/12 p-3 rounded-md" type="email" name="" id="email" placeholder="Your Email Address">
-        <input  class="block mb-3 w-9/12 p-3 rounded-md" type="password" name="" id="password" placeholder="Your Password">
-        <button class="bg-blue-600 px-4 py-2 rounded-md text-white font-semibold hover:bg-blue-700">Submit</button>
-    </section>
-</body>
+        <input
+          class="block mb-3 w-9/12 p-3 rounded-md"
+          type="email"
+          name=""
+          id="user-email"
+          placeholder="Your Email Address"
+        />
+        <input
+          class="block mb-3 w-9/12 p-3 rounded-md"
+          type="password"
+          name=""
+          id="user-password"
+          placeholder="Your Password"
+        />
+        <button
+          id="btn-submit"
+          class="bg-blue-600 px-4 py-2 rounded-md text-white font-semibold hover:bg-blue-700"
+        >
+          Submit
+        </button>
+      </section>
+    </main>
+
+    <script src="./js/login.js"></script>
+  </body>
 </html>
